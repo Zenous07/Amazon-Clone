@@ -1,0 +1,18 @@
+.container{
+  height:250px;
+  width:250px;
+  border:black 3px solid;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex:1fr;
+}
+
+.email,.password{
+  width: 220px;
+  height: 25px;
+  border: rgb(122, 118, 118) solid 2px;
+  border-radius: 5px;
+}
